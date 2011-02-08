@@ -1,0 +1,11 @@
+<p>
+	Enter time spent for project: <%= @project.name %>
+</p>
+<% form_for [@project, @task] do |f| %>
+	<%= f.label :time_spent %>
+	<%= f.text_field :time_spent %>
+	<%= f.submit "Submit" %>
+<% end %>
+
+
+

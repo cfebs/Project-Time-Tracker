@@ -1,0 +1,14 @@
+<% if @projects.count == 0 %> 
+	<p>No projects to display</p>
+<% end %>
+	
+	
+	<%= link_to "Add a new one", new_project_path %>
+
+<% @projects.each do |p| %>
+	<h2><%= p.name %></h2>
+	<%= link_to "Remove Project", p, :confirm => 'Are you sure?', :method => :delete %> - 
+	<%= link_to "New Task", new_project_task_path(p) %>
+<% end %>
+
+
