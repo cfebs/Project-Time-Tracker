@@ -1,4 +1,90 @@
-== Welcome to Rails
+#Project Time Tracking
+
+## Gems
+- Devise
+- jRails
+
+## Functions
+- Users can add Projects and then tasks to those projects
+- Tasks will be tracked by AJAX timers
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Rails is a web-application framework that includes everything needed to create
 database-backed web applications according to the Model-View-Control pattern.
